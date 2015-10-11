@@ -1,5 +1,5 @@
 {
-  "name": "vendor/package",
+  "name": "vendor/xiaolu/dgg",
   "description": "",
   "keywords": [],
   "homepage": "",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Package\\": "src/"
+      "Vendor\\xiaolu\\dgg\\": "src/"
     }
   },
   "minimum-stability": "dev"
