@@ -1,4 +1,5 @@
-<?php namespace xiaolu\dgg;
+<?php namespace Vendor\Package;
+
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider {
@@ -17,11 +18,11 @@ class ServiceProvider extends LaravelServiceProvider {
      */
     public function boot() {
 
-        // $this->handleConfigs();
+        $this->handleConfigs();
         // $this->handleMigrations();
         // $this->handleViews();
         // $this->handleTranslations();
-         $this->handleRoutes();
+        // $this->handleRoutes();
     }
 
     /**
