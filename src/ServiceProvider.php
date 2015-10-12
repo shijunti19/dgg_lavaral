@@ -1,4 +1,4 @@
-<?php namespace Vendor\Package;
+<?php namespace Vendor\Dgg;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 

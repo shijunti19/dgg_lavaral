@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Xiaolu\\Dgg\\": "src/"
+      "Vendor\\Dgg\\": "src/"
     }
   },
   "minimum-stability": "dev"
