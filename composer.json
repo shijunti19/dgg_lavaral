@@ -1,27 +1,23 @@
 {
-  "name": "vendor/xiaolu/dgg",
-  "description": "",
-  "keywords": [],
-  "homepage": "",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "",
-      "email": ""
-    }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/config": "~5.0",
-    "illuminate/support": "~5.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Vendor\\xiaolu\\dgg\\": "src/"
-    }
-  },
-  "minimum-stability": "dev"
+    "name": "xiaolu/dgg",
+    "description": "",
+    "authors": [
+        {
+            "name": "keepeye",
+            "email": "carlton.cheng@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Xiaolu\\Dgg\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }
