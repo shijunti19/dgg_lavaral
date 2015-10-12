@@ -1,23 +1,27 @@
 {
-    "name": "xiaolu/dgg",
-    "description": "",
-    "authors": [
-        {
-            "name": "keepeye",
-            "email": "carlton.cheng@foxmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
-    },
-    "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
-        "psr-4": {
-            "Xiaolu\\Dgg\\": "src/"
-        }
-    },
-    "minimum-stability": "stable"
+  "name": "vendor/dgg_lavaral",
+  "description": "小陆的第一个lavaral包",
+  "keywords": [],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "小陆",
+      "email": "527528007@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vendor\\Dgg_lavaral\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }
