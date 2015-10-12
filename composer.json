@@ -1,5 +1,5 @@
 {
-  "name": "vendor/dgg_lavaral",
+  "name": "xiaolu/dgg",
   "description": "小陆的第一个lavaral包",
   "keywords": [],
   "homepage": "",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Dgg_lavaral\\": "src/"
+      "Xiaolu\\Dgg\\": "src/"
     }
   },
   "minimum-stability": "dev"
